@@ -17,7 +17,7 @@ def fake_error():
     set_console_title("Spoofer ładowanie...")
     loading_animation()
     time.sleep(3)
-    os.system('cls' if os.name == 'nt' else 'clear')  # Czyszczenie konsoli zgodnie z systemem operacyjnym
+    os.system('cls' if os.name == 'nt' else 'clear') 
     set_console_title("Coprything: Projekt Averos")
     print("###################################")
     print("#         Autor: .jvsh.           #")
@@ -30,7 +30,7 @@ def fake_error():
     loading_animation()
     time.sleep(1)
     os.system('cls' if os.name == 'nt' else 'clear')
-    print('[+] Serial spoofing...')
+    print("[+] Serial spoofing...")
     time.sleep(3)
     os.system('cls' if os.name == 'nt' else 'clear')
     set_console_title("Serial spoofing")

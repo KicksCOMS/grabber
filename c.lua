@@ -10,7 +10,7 @@ def loading_animation():
     animation = "|/-\\" 
     for i in range(20): 
         time.sleep(0.1) 
-        sys.stdout.write("\r" + "ŁADOWANIE... " + animation[i % len(animation)])  # Poprawiona linijka
+        sys.stdout.write("\r" + "LOADING... " + animation[i % len(animation)])  # Poprawiona linijka
         sys.stdout.flush() 
 
 def fake_error(): 
@@ -26,14 +26,14 @@ def fake_error():
     print ("###################################") 
     time.sleep(5) 
     os.system('cls') 
-    set_console_title("Podrabianie serialu...") 
+    set_console_title("Serial spoofing...") 
     loading_animation() 
     time.sleep(1) 
     os.system('cls') 
-    print ('[+] Podrabianie serialu...') 
+    print ('[+] Serial spoofing...') 
     time.sleep(3) 
     os.system('cls') 
-    set_console_title("Podrobiony serial") 
-    print("ZROBIONE!") 
+    set_console_title("Serial spoofing") 
+    print("DONE! Open MTA:SA") 
 
 fake_error()

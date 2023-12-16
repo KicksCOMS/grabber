@@ -14,7 +14,7 @@ def loading_animation():
         sys.stdout.flush()
 
 def fake_error():
-    set_console_title("Spoofer ładowanie...")
+    set_console_title("Spoofer loading...")
     loading_animation()
     time.sleep(3)
     os.system('cls' if os.name == 'nt' else 'clear') 
@@ -24,7 +24,7 @@ def fake_error():
     print("#            Discord:             #")
     print("#   https://discord.gg/4X5XjDxMf8 #")
     print("###################################")
-    time.sleep(5)
+    time.sleep(7)
     os.system('cls' if os.name == 'nt' else 'clear')
     set_console_title("Serial spoofing...")
     loading_animation()
